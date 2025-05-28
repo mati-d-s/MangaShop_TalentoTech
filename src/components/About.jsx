@@ -23,10 +23,10 @@ function About() {
         Sobre Nosotros
       </h2>
       <p style={{ fontSize: "1.1rem", marginBottom: "16px", textAlign: "justify" }}>
-        Bienvenido a nuestra tienda online. Nos especializamos en ofrecer productos de alta calidad a precios accesibles. Nuestro objetivo es brindarte una experiencia de compra simple, rápida y segura.
+        Bienvenido a MangaShop, tu tienda online especializada en la venta de mangas. Nos apasiona el mundo del manga y trabajamos para ofrecerte los títulos más populares, clásicos y difíciles de encontrar, todo en un solo lugar.
       </p>
       <p style={{ fontSize: "1.1rem", textAlign: "justify" }}>
-        Ya sea que estés buscando tecnología, ropa, accesorios o más, en nuestro e-commerce vas a encontrar lo que necesitás.
+        Ya seas un lector ocasional o un coleccionista, en nuestra tienda vas a poder comprar tus mangas favoritos de forma fácil, rápida y segura.
       </p>
     </section>
   );
