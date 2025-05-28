@@ -1,0 +1,1 @@
+# MangaShop_TalentoTech
