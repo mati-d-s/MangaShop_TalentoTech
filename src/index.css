@@ -1,0 +1,25 @@
+:root {
+  /* Tipografía */
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+
+  /* Paleta de colores */
+  --color-text: #f0f0f0;
+  --color-background: #1e1e1e;
+  --color-primary: #ffcc80;
+  --color-accent: #ffb74d;
+
+  /* Modo oscuro base */
+  color-scheme: dark;
+  color: var(--color-text);
+  background-color: var(--color-background);
+
+  /* Mejoras visuales */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
