@@ -1,16 +1,81 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎉 Entrega Final - Proyecto eCommerce: MangaShop
 
-Currently, two official plugins are available:
+## 📝 Descripción General
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**MangaShop** es una tienda online de mangas desarrollada como entrega final del curso Talento Tech. Esta aplicación simula una experiencia real de eCommerce, incluyendo funcionalidades clave como autenticación de usuarios, carrito de compras, administración de productos con MockAPI, diseño responsivo y optimización para despliegue.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# MangaShop_TalentoTech
->>>>>>> fef778ed5585295d604a29ecedb89aad67cab9c0
+## ✅ Funcionalidades Implementadas
+
+### 🔐 Autenticación de Usuarios
+- Login simulado utilizando `localStorage`.
+- Rutas protegidas que restringen el acceso a secciones privadas (como el carrito o la administración de productos).
+- Gestión de sesión con `AuthContext`.
+
+### 🛒 Carrito de Compras
+- Implementado con `Context API`.
+- Permite agregar, eliminar y vaciar productos.
+- Estado persistente mientras el usuario navega.
+
+### 📦 CRUD de Productos con MockAPI
+- Crear, editar y eliminar productos desde la interfaz.
+- Formulario controlado con validaciones.
+- Confirmación antes de eliminar y manejo de errores con `Toastify`.
+
+### 🔍 Búsqueda y Paginación
+- Búsqueda dinámica por nombre de producto.
+- Paginador funcional con navegación fluida entre páginas.
+
+### 🎨 Diseño y Responsividad
+- Sistema de grillas de `Bootstrap` para adaptar el sitio a todos los dispositivos.
+- Estilización con `styled-components` para componentes reutilizables y limpios.
+- Interactividad con `React Icons` y `React Toastify`.
+
+### 🌐 Preparación para Despliegue
+- Aplicación completamente responsiva.
+- Optimización del código.
+- Configuración de SEO con `React Helmet`.
+- Desplegado en Vercel: [manga-shop-talento-tech.vercel.app](https://manga-shop-talento-tech.vercel.app)
+
+---
+
+## ⚙️ Tecnologías Utilizadas
+- **React.js**
+- **React Router DOM**
+- **Context API**
+- **Bootstrap 5**
+- **Styled-Components**
+- **MockAPI**
+- **React Icons**
+- **React Toastify**
+- **React Helmet**
+- **Vercel**
+
+---
+
+## 📦 Instalación Local
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/mati-d-s/MangaShop_TalentoTech.git
+   cd MangaShop_TalentoTech
+   ```
+
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Ejecutar el proyecto en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abrir en el navegador:
+   ```
+   http://localhost:5173
+   ```
+
+---
